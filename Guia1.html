@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3CBC8D;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:grey;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: white;
+  color: white;
+}
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+input[type=submit] {
+  background-color:  #3CBC8D;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #3CBC8D;
+}
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <ul>
+  <li><a class="active" href="#home">Formulario</a></li>
+  <li><a href="#news">Tabla</a></li>
+
+</ul><br><br><br>
+<div class="container">
+  <label class="p2"for="fname">Nombre:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label  class="p2"for="fname">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label  class="p2"for="fname">Telefono:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <br><label  class="p2"for="birthday">Fecha de Naciemiento:</label><br>
+  <input type="date" id="birthday" name="birthday"><br>
+   <br><label  class="p2"for="quantity">Edad:</label><br>
+  <input type="number" id="quantity" name="quantity" min="17" max="99"><br>
+  <br> <label  class="p2">Seleccione una carrera:</label><br>
+   <br><input type="radio" id="male" name="gender" value="male">
+  <label class="p2" for="male">Ingenieria informatica</label><br>
+ <input type="radio" id="female" name="gender" value="female">
+  <label  class="p2"for="female">Ingieneria Civil Infromatica</label><br>
+<input type="radio" id="female" name="gender" value="female">
+  <label  class="p2"for="female">Ingieneria Civil Industrial Infromatica</label><br>
+  <div class="row">
+    <input  class="p2"type="submit" value="Submit">
+  </div>
+  </div>
+</form>
+    </body>
+</html>
